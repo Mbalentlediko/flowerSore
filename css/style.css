@@ -9,6 +9,14 @@
     display: none;
 
 }
+/* display grid */
+body{
+    display: grid;
+
+}
+body{
+    grid-template-rows: auto minmax(100%, 100dvh);
+}
 /* nevbar */
 .navbar{
     & img[alt='logo']{
